@@ -1,0 +1,15 @@
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form .formHeader {
+  width: 500px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  margin-top: 50px;
+  height: 100%;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: white;
+  margin-bottom: 50px;
+}

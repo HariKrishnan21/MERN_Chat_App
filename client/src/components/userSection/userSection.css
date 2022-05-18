@@ -1,0 +1,29 @@
+.box {
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+}
+.content {
+  margin-left: 20px;
+}
+.userProfile:hover {
+  background-color: #f2f2f2;
+}
+.sidebar_body {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+.sidebar_body::-webkit-scrollbar {
+  width: 0.2rem;
+}
+.sidebar_body::-webkit-scrollbar-thumb {
+  background-color: #ffffff39;
+  width: 0.1rem;
+  border-radius: 1rem;
+}
+
+.content h2 {
+  color: gray;
+  font-size: medium;
+}
